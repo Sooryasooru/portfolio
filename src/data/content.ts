@@ -73,12 +73,12 @@ export const profile = {
 
 export const photos = {
   about: {
-    src: '/images/soorya-about.png',
+    src: `${import.meta.env.BASE_URL}images/soorya-about.png`,
     alt: 'Soorya T at her development workstation, mid-build',
     caption: 'At the workstation',
   },
   candid: {
-    src: '/images/soorya-candid.png',
+    src: `${import.meta.env.BASE_URL}images/soorya-candid.png`,
     alt: 'Soorya T smiling during a break between build sessions',
     caption: 'Between build sessions',
   },
