@@ -147,7 +147,7 @@ export default function Contact() {
           </Magnetic>
           <Magnetic strength={3}>
             <a
-              href="/soorya-t-resume.pdf"
+              href={`${import.meta.env.BASE_URL}soorya-t-resume.pdf`}
               target="_blank"
               rel="noreferrer"
               className="inline-flex items-center gap-2 rounded-full bg-ink px-5 py-2.5 text-sm font-medium text-paper shadow-[0_12px_26px_-14px_rgba(28,36,49,0.7)] transition-all duration-200 hover:-translate-y-0.5 hover:bg-teal hover:shadow-[0_14px_28px_-12px_rgba(47,93,80,0.6)]"

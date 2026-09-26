@@ -109,7 +109,7 @@ export default function RecruiterView() {
             <Linkedin size={15} aria-hidden /> LinkedIn
           </a>
           <a
-            href="/soorya-t-resume.pdf"
+            href={`${import.meta.env.BASE_URL}soorya-t-resume.pdf`}
             className="rounded-full border border-ink/25 px-5 py-2.5 text-sm font-medium text-ink transition hover:border-teal hover:bg-teal hover:text-paper"
           >
             Résumé (print → PDF)

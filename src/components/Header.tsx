@@ -70,7 +70,7 @@ export default function Header({ recruiterMode, onToggleRecruiter }: Props) {
           </button>
 
           <a
-            href="/soorya-t-resume.pdf"
+            href={`${import.meta.env.BASE_URL}soorya-t-resume.pdf`}
             target="_blank"
             rel="noreferrer"
             className="hidden rounded-full border border-ink px-3.5 py-1.5 text-sm font-medium text-ink transition-all duration-200 hover:-translate-y-0.5 hover:bg-ink hover:text-paper hover:shadow-[0_10px_22px_-12px_rgba(28,36,49,0.7)] sm:inline-block"
@@ -102,7 +102,7 @@ export default function Header({ recruiterMode, onToggleRecruiter }: Props) {
                 {item.label}
               </a>
             ))}
-            <a href="/soorya-t-resume.pdf" target="_blank" rel="noreferrer" className="text-sm font-medium text-teal">
+            <a href={`${import.meta.env.BASE_URL}soorya-t-resume.pdf`} target="_blank" rel="noreferrer" className="text-sm font-medium text-teal">
               Résumé →
             </a>
           </div>
